@@ -23,7 +23,7 @@ export default function HeaderHomeFour() {
   return (
     <header
       className={`site-header fugu--header-section fugu--header-two ${
-        scroll ? "sticky-menu" : ""
+        scroll ? "" : ""
       }`}
       id="sticky-menu"
     >
