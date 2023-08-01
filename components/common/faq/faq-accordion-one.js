@@ -7,10 +7,7 @@ export default function FaqAccordionOne() {
           <div className="col-lg-4">
             <div className="fugu--default-content content-black">
               <h2>Frequently asked questions</h2>
-              <p>
-                FAQ used to refer to a list of answers to typical questions that
-                users might ask.
-              </p>
+              <p>Here are some common question we get about Suqlink</p>
             </div>
           </div>
           <div className="col-lg-7 offset-lg-1">
@@ -26,10 +23,7 @@ export default function FaqAccordionOne() {
                     link. You don’t need a website, a store, or any technical
                     skills to use our platform. You just need to create a
                     product, upload it to our platform, generate a link, and
-                    share it with your audience. You can sell anything from
-                    video lessons to monthly subscriptions, physical products,
-                    and more. You have full control over your pricing, delivery,
-                    and customer service.
+                    share it with your audience.
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="1">
@@ -38,12 +32,11 @@ export default function FaqAccordionOne() {
                   </Accordion.Header>
                   <Accordion.Body>
                     You get paid directly and instantly for every sale you make
-                    on our platform. We use Stripe as our payment processor,
-                    which supports all major credit cards and currencies. You
-                    can also accept payments via PayPal, Apple Pay, Google Pay,
-                    and more. You can withdraw your earnings anytime you want,
-                    or set up automatic payouts to your bank account or debit
-                    card.
+                    on our platform. We use Chapa as our payment processor,
+                    which supports all major banks and international payments
+                    methods like Paypal, and credit cards. You can withdraw your
+                    earnings anytime you want. We send them directly to your
+                    bank account.
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="2">
@@ -51,22 +44,19 @@ export default function FaqAccordionOne() {
                     How much does it cost to use your platform?
                   </Accordion.Header>
                   <Accordion.Body>
-                    It costs nothing to use our platform. We don’t charge any
-                    fees, commissions, or subscriptions to use our platform. You
-                    only pay a small transaction fee to Stripe or PayPal for
-                    processing your payments. You keep 100% of your profits.
+                    We take a small cut off each sell. Currently the rate stands
+                    at 20% of each sell.
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="3">
                   <Accordion.Header>
-                    How do I customize my link and product page?
+                    How do I customize my product page?
                   </Accordion.Header>
                   <Accordion.Body>
-                    You can customize your link and product page with your own
-                    domain name, logo, branding, and design. You can also add a
-                    description, a preview, testimonials, FAQs, and more to your
-                    product page. You can use our simple and intuitive editor to
-                    make your link and product page look professional and
+                    You can customize your product page with your own product
+                    thumbnail, title, and logo. You can also add a description
+                    to your product page. You can use our simple and intuitive
+                    editor to make your product page look professional and
                     appealing.
                   </Accordion.Body>
                 </Accordion.Item>

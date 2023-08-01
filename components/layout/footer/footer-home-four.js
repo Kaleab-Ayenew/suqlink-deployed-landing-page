@@ -40,7 +40,7 @@ export default function FooterHomeFour() {
                 <img src="/images/logo/logo-black.svg" alt="" />
               </div>
             </div>
-            <div className="col-xl-6 col-lg-8">
+            {/* <div className="col-xl-6 col-lg-8">
               <div className="fugu--footer-menu2">
                 <ul>
                   <li>
@@ -60,8 +60,8 @@ export default function FooterHomeFour() {
                   </li>
                 </ul>
               </div>
-            </div>
-            <div className="col-xl-3 col-lg-2">
+            </div> */}
+            {/* <div className="col-xl-3 col-lg-2">
               <div className="fugu--social-icon fugu--social-icon2">
                 <ul>
                   <li>
@@ -81,7 +81,7 @@ export default function FooterHomeFour() {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="fugu--footer-bottom fugu--footer-bottom2">

@@ -24,7 +24,7 @@ export default function HeroSection() {
             data-wow-delay=".20s"
           >
             <Link href={"#"} legacyBehavior>
-              <a className="fugu--btn bg-orange">View All Collections</a>
+              <a className="fugu--btn bg-orange">Start Selling</a>
             </Link>
           </div>
           <div className="fugu--content-star">

@@ -188,7 +188,7 @@ export default function AboutSection() {
               </p>
               <div className="fugu--btn-wrap">
                 <Link href={"#"} legacyBehavior>
-                  <a className="fugu--btn bg-orange">Explore More</a>
+                  <a className="fugu--btn bg-orange">Start Selling</a>
                 </Link>
               </div>
             </div>

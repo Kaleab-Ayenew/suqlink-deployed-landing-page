@@ -12,7 +12,7 @@ export default function IndexFour() {
   return (
     <>
       <Head>
-        <title>Suqlink website</title>
+        <title>Suqlink - Sell by sharing a single link</title>
       </Head>
       <HeroSection />
       <TextSliderThree />
