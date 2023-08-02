@@ -23,7 +23,10 @@ export default function HeroSection() {
             className="fugu--btn-wrap fugu--hero-btn wow fadeInUpX"
             data-wow-delay=".20s"
           >
-            <Link href={"#"} legacyBehavior>
+            <Link
+              href={"https://dashboard.suqlink.com/register"}
+              legacyBehavior
+            >
               <a className="fugu--btn bg-orange">Start Selling</a>
             </Link>
           </div>

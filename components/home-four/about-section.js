@@ -187,7 +187,10 @@ export default function AboutSection() {
                 pricing, delivery, and customer service.
               </p>
               <div className="fugu--btn-wrap">
-                <Link href={"#"} legacyBehavior>
+                <Link
+                  href={"https://dashboard.suqlink.com/register"}
+                  legacyBehavior
+                >
                   <a className="fugu--btn bg-orange">Start Selling</a>
                 </Link>
               </div>

@@ -73,7 +73,10 @@ export default function HeaderHomeFour() {
             </nav>
           </div>
           <div className="header-btn header-btn-l1 ms-auto d-none d-xs-inline-flex">
-            <a className="fugu--btn fugu--menu-btn2" href="contact.html">
+            <a
+              className="fugu--btn fugu--menu-btn2"
+              href="https://dashboard.suqlink.com/login"
+            >
               Sign In
             </a>
           </div>

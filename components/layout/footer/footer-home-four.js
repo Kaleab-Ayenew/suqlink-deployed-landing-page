@@ -24,7 +24,10 @@ export default function FooterHomeFour() {
               className="fugu--btn-wrap wow fadeInUpX"
               data-wow-delay="0.25s"
             >
-              <Link href={"#"} legacyBehavior>
+              <Link
+                href={"https://dashboard.suqlink.com/register"}
+                legacyBehavior
+              >
                 <a className="fugu--btn bg-orange">Get Started</a>
               </Link>
             </div>
