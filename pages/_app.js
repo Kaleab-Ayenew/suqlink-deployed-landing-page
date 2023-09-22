@@ -12,20 +12,25 @@ import "../styles/css/app.css";
 import "../styles/css/main.css";
 
 function MyApp({ Component, pageProps }) {
-	return (
-		<>
-			<Head>
-				{/* common title */}
-				<title>fugu</title>
-			</Head>
-			<Layout>
-				<Component {...pageProps} />
-			</Layout>
+  const seoData = {
+    titleSlogan: "Sell Your Digital Products Easily to Thousands",
+    description:
+      "Suqlink is a simple e-commerce platform where you can sell pdfs, videos, images, music easily.",
+  };
+  return (
+    <>
+      <Head>
+        {/* common title */}
+        <title>Suqlink - {seoData.titleSlogan}</title>
+      </Head>
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
 
-			<ScrollTop />
-			<Preloader />
-		</>
-	);
+      <ScrollTop />
+      <Preloader />
+    </>
+  );
 }
 
 export default MyApp;

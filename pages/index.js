@@ -9,10 +9,25 @@ import RoadmapSection from "../components/home-four/roadmap-section";
 import TextSliderThree from "./../components/common/sliders/text/text-slider-three";
 
 export default function IndexFour() {
+  const seoData = {
+    titleSlogan: "Sell Your Digital Products Easily to Thousands",
+    description:
+      "Suqlink is a simple e-commerce platform where you can sell pdfs, videos, images, music easily.",
+  };
   return (
     <>
       <Head>
-        <title>Suqlink - Sell by sharing a single link</title>
+        <title>Suqlink - {seoData.titleSlogan}</title>
+        <meta name="description" content={`${seoData.description}`} />
+        <meta
+          property="og:title"
+          content={`Suqlink - ${seoData.titleSlogan}`}
+        />
+        <meta property="og:description" content={`${seoData.description}`} />
+        <meta
+          property="og:image"
+          content="/images/seo/suqlink-seo-screen.png"
+        />
       </Head>
       <HeroSection />
       <TextSliderThree />
