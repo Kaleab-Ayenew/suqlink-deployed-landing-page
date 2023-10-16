@@ -7,6 +7,7 @@ import ArtWorkSection from "../components/home-four/art-work-section";
 import HeroSection from "../components/home-four/hero-section";
 import RoadmapSection from "../components/home-four/roadmap-section";
 import TextSliderThree from "./../components/common/sliders/text/text-slider-three";
+import Script from "next/script";
 
 export default function IndexFour() {
   const seoData = {
@@ -29,6 +30,20 @@ export default function IndexFour() {
           content="/images/seo/suqlink-seo-screen.png"
         />
       </Head>
+
+      <Script id="google-analytics">
+        {`
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MNL07Q4KRF');
+  `}
+      </Script>
+      <Script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-MNL07Q4KRF"
+      />
       <HeroSection />
       <TextSliderThree />
       <AboutSection />
